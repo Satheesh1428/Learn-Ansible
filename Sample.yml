@@ -1,0 +1,7 @@
+- name Install nginx
+  hosts:web
+  tasks:
+    -name: Install nginx
+      ansibl.ebuuilt.yum
+        name:httpd
+        state:latest
