@@ -1,6 +1,6 @@
 - name: Install nginx
   ansible.builtin.yum:
-  ansible name: nginx
+   name: nginx
    state: latest
 - name: Start  nginx
   ansible.builtin.systemd:
